@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Reem+Kufi:wght@400;500&family=Unna&family=Vidaloka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vidaloka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vidaloka&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.conteudo{
+    margin-bottom: 40px;
+    border-top: 0.4px solid #000000;
+    
+}
+
+.conteudo-principal{
+    margin-top: 5vh;
+    margin-left: 10vh;
+    margin-right: 50%;
+}
+
+.conteudo-principal-p{
+    font-family: 'Vidaloka', serif;
+}
+
+.conteudo-principal-s{
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.conteudo-principal-t{
+    font-family: 'Vidaloka', serif;
+    margin-top: 30px;
+}
+
+.conteudo-principal-q{
+    margin-top: 10px;
+    font-family: 'Vidaloka', serif;
+}
