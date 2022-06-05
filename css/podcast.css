@@ -1,5 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Reem+Kufi:wght@400;500&family=Unna&family=Vidaloka&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Vidaloka&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600&family=Reem+Kufi:wght@700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
 
 * {
     margin: 0;
@@ -10,8 +12,6 @@
 
 body{
     font-size: 100%;
-    font-family: 'Poppins', sans-serif;
-
 }
 
 .conteudo{
@@ -20,7 +20,8 @@ body{
 }
 
 .conteudo-principal{
-    font-family: 'Vidaloka', serif;
+    font-family: 'Montserrat Alternates', sans-serif; 
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -34,7 +35,8 @@ body{
 
 .conteudo-principal-escrito-titulo{
     font-weight: 400;
-    font-size: 50px;
+    font-size: 60px;
+    font-weight: bold;   
 
 }
 
@@ -56,23 +58,38 @@ body{
 
 }
 
+.espaco-lateral{
+    margin-left: 10%;
+    margin-right: 10%;
+    max-width: 1700px;
+}
 
-.conteudo-Ep{
-    margin-left: 15%;
-    margin-right: 100px;
-    margin-top: 50px;
+.conteudo-ep{
+    margin-top: 9vh;
     margin-bottom: 5vh;
 }
+
+.conteudo-ep-p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+}
+
+.conteudo-ep-f{
+    margin-right: 50%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+}
+
+
 
 
 .conteudo-borda{
     background: #fff;
-    width: 70%;
+    width: 80%;
     margin: 0 auto 20px auto;
     border-radius: 25px;
-    border: 5px solid #000;
-    margin-top: 5vh;
-    max-width: 1400px;    
+    border: 3px solid #000;
+    margin-top: 5vh;  
 
     
 
@@ -80,16 +97,23 @@ body{
 
 .conteudo-borda-titulo{
     padding-top: 1%;
-    padding-left: 5%;
+    padding-left: 2%;
     display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+    font-size: 30px;
 
 }
 
 .conteudo-borda-secudario{
     padding-top: 10px;
-    padding-left: 5%;
+    padding-left: 2%;
     margin-right: 2%;
     margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+    margin-bottom: 4%;
+    
     
 
     
@@ -119,12 +143,12 @@ body{
     cursor: pointer;
     box-shadow: 0px 10px 40px -20px #F44618;
 
-    font-weight: 400px;
     font-size: 25px;
+}   
 
 
 
-}
+
 
 .conteudo-btn-mais{
     margin-top: 10px;

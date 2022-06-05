@@ -20,6 +20,10 @@ body{
     
 }
 
+.cabecalho-img{
+    margin-top: 1vh;
+}
+
 .conteudo-principal{
     margin-top: 5vh;
     margin-left: 10vh;

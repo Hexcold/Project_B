@@ -1,15 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&family=Reem+Kufi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&family=Reem+Kufi:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@1,500&family=Reem+Kufi:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@700&family=Reem+Kufi:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600&family=Reem+Kufi&display=swap');
 
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Reem Kufi', sans-serif;
-  }
-  
-  .cabecalho-menu-item {
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.cabecalho-menu-item {
     color: #000;
     text-decoration: none;
     transition: 0.3s;
+    font-size: 18px;
   }
   
   .cabecalho-menu-item:hover {
@@ -26,22 +31,18 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    font-family: 'Reem Kufi', sans-serif;
     background: #fff;
     background-size: cover;
-    height: 8vh;
+    height: 10vh;
+    font-size: 1rem;
   }
-
-  
-.conteudo{
-  margin-bottom: 40px;
-  border-top: 0.4px solid #000000;
-}
   
   
   .nav-list {
     list-style: none;
     display: flex;
+    
   }
   
   .nav-list li {
@@ -49,69 +50,73 @@
     margin-left: 32px;
   }
   
-  .mobile-menu {
-    display: none;
-    cursor: pointer;
+  .conteudo{
+    margin-bottom: 40px;
+    border-top: 0.4px solid #000000;
+}
+
+.mobile-menu {
+  display: none;
+  cursor: pointer;
+}
+
+.mobile-menu div {
+  width: 32px;
+  height: 2px;
+  background: #000;
+  margin: 8px;
+  transition: 0.3s;
+}
+
+@media (max-width: 999px) {
+  body {
+    overflow-x: hidden;
   }
-  
-  .mobile-menu div {
-    width: 32px;
-    height: 2px;
-    background: #000;
-    margin: 8px;
-    transition: 0.3s;
+  .nav-list {
+    position: absolute;
+    top: 8vh;
+    right: 0;
+    width: 45vw;
+    height: 92vh;
+    background: #fff;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in;
   }
-  
-  @media (max-width: 999px) {
-    body {
-      overflow-x: hidden;
-    }
-    .nav-list {
-      position: absolute;
-      top: 8vh;
-      right: 0;
-      width: 45vw;
-      height: 92vh;
-      background: #fff;
-      flex-direction: column;
-      align-items: center;
-      justify-content: space-around;
-      transform: translateX(100%);
-      transition: transform 0.3s ease-in;
-    }
-    .nav-list li {
-      margin-left: 0;
-      opacity: 0;
-    }
-    .mobile-menu {
-      display: block;
-    }
-  }
-  
-  .nav-list.active {
-    transform: translateX(0);
-  }
-  
-  @keyframes navLinkFade {
-    from {
-      opacity: 0;
-      transform: translateX(50px);
-    }
-    to {
-      opacity: 1;
-      transform: translateX(0);
-    }
-  }
-  
-  .mobile-menu.active .line1 {
-    transform: rotate(-45deg) translate(-8px, 8px);
-  }
-  
-  .mobile-menu.active .line2 {
+  .nav-list li {
+    margin-left: 0;
     opacity: 0;
   }
-  
-  .mobile-menu.active .line3 {
-    transform: rotate(45deg) translate(-5px, -7px);
+  .mobile-menu {
+    display: block;
   }
-  
+}
+
+.nav-list.active {
+  transform: translateX(0);
+}
+
+@keyframes navLinkFade {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.mobile-menu.active .line1 {
+  transform: rotate(-45deg) translate(-8px, 8px);
+}
+
+.mobile-menu.active .line2 {
+  opacity: 0;
+}
+
+.mobile-menu.active .line3 {
+  transform: rotate(45deg) translate(-5px, -7px);
+}
