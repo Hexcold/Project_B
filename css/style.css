@@ -252,8 +252,18 @@ body{
 
 }
 
-.rodape{
+.linha{
     padding: 32px;
-    border-top: 0.4px solid #000000;
+    border-top: 0.4px solid #E9E9E9;
     width: 100%;
+}
+
+.conteudo-eventos{
+  margin-right: 10% ;
+  margin-left: 10%;
+  margin-top: 5vh;
+}
+
+.conteudo-evento-01{
+  color: #606060;
 }
