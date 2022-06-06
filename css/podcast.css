@@ -28,14 +28,18 @@ body{
     background: url("../img/img_podcast_principal.svg") no-repeat center center;
     background-size: cover;
     height: 50vh;
-    width: 100vw;
+    width: 100%;
+
+    min-height: 450px;
+
+ 
 
 }
 
 
 .conteudo-principal-escrito-titulo{
     font-weight: 400;
-    font-size: 60px;
+    font-size: 7vh;
     font-weight: bold;   
 
 }
@@ -55,6 +59,7 @@ body{
 
     margin-left: 30%;
     margin-right: 30%;
+
 
 }
 

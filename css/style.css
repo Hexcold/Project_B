@@ -36,6 +36,9 @@ body{
     background: #FFC017;
     background-size: cover;
     height: 10vh;
+
+    min-height: 100px;
+    
   }
   
   .cabecalho-img{
@@ -153,6 +156,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+
+    min-height: 450px;
 }
 
 .conteudo-principal-escrito{
