@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Reem+Kufi:wght@400;500&family=Unna&family=Vidaloka&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Vidaloka&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Vidaloka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap');
+
+
 
 * {
     margin: 0;
@@ -26,12 +31,12 @@ body{
 
 .conteudo-principal{
     margin-top: 5vh;
-    margin-left: 10vh;
+    margin-left: 10%;
     margin-right: 50%;
 }
 
 .conteudo-principal-p{
-    font-family: 'Vidaloka', serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .conteudo-principal-s{
@@ -40,11 +45,29 @@ body{
 }
 
 .conteudo-principal-t{
-    font-family: 'Vidaloka', serif;
+    font-family: 'Reem Kufi', sans-serif;
     margin-top: 30px;
 }
 
 .conteudo-principal-q{
     margin-top: 10px;
-    font-family: 'Vidaloka', serif;
+    font-family: 'Reem Kufi', sans-serif;
+}
+
+.conteudo-apresentador-flex{
+    margin-top: 1vh;
+    margin-left: 10%;
+    display: flex;
+
+    align-items: center;
+}
+
+.conteudo-apresentador-flex-tt{
+    font-weight: lighter;
+    font-family: 'Poppins', sans-serif;
+    margin-right: 20px;
+}
+
+.conteudo-apresentador-flex-tt-icon{
+    cursor: pointer;
 }
