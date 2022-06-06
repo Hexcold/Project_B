@@ -58,6 +58,7 @@ body{
     margin-top: 1vh;
     margin-left: 10%;
     display: flex;
+    justify-content: flex-start;
 
     align-items: center;
 }
@@ -66,6 +67,7 @@ body{
     font-weight: lighter;
     font-family: 'Poppins', sans-serif;
     margin-right: 20px;
+    
 }
 
 .conteudo-apresentador-flex-tt-icon{
