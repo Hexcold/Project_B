@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Reem+Kufi:wght@400;500&family=Unna&family=Vidaloka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 
 * {
     margin: 0;
@@ -38,7 +40,7 @@ body{
     height: 10vh;
 
     min-height: 100px;
-    
+
   }
   
   .cabecalho-img{
@@ -170,7 +172,7 @@ body{
 }
 
 .conteudo-principal-escrito-titulo{
-    font-family: 'Vidaloka', serif;
+  font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 76px;
 
@@ -264,11 +266,36 @@ body{
 }
 
 .conteudo-eventos{
-  margin-right: 10% ;
-  margin-left: 10%;
-  margin-top: 5vh;
+  margin-right: 20% ;
+  margin-left: 20%;
+  margin-top: 7vh;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .conteudo-evento-01{
   color: #606060;
 }
+
+
+
+.conteudo-flex{
+
+}
+
+.conteudo-img-flex{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.linha1{
+  padding: 1px;
+  border-top: 0.4px solid #E9E9E9;
+  width: 100%;
+}
+
+.conteudo-img-flex-sm{
+  margin: 20px;
+  width: 30%;
+}
+
