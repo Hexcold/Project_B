@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600&family=Reem+Kufi:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    }
+    
+    body{
+    font-size: 100%;
+    }
+
+
+.conteudo{
+    margin-bottom: 40px;
+    border-top: 0.4px solid #000000;
+}
+
+.conteudo-principal{
+    margin-top: 7vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-right: 30px;
+    margin-left: 30px;
+
+    height: 50vh;
+
+    min-height: 450px;
+}
+
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    margin-right: 5vh;
+}
+
+.conteudo-principal-escrito-titulo{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 400;
+    font-size: 10vh;
+    font-weight: bolder;
+}
+
+.conteudo-principal-escrito-subtitulo{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 400;
+    font-size: 3vh;
+    font-weight: bold;
+
+
+
+}
+
+.conteudo-secundario-escrito{
+    display: flex;
+    flex-direction: column;
+}
+
+.conteudo-secundario-escrito-t{
+    font-family: 'Reem Kufi', sans-serif;
+    font-weight: lighter;
+    font-size: 3vh;
+}
+
+.conteudo-principal-escrito-botao{
+    margin-top: 1vh;
+    font-family: 'Poppins', sans-serif;
+    width: 180px;
+    padding: 12px 0px;
+    margin-right: 100px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #000;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -22px #000;
+    border: 3px solid #000;
+
+    background: #fff;
+
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 60px;
+
+}
+
+
+.conteudo-principal-imagem {
+  width: 25vw;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+
+}
+
+.conteudo-flex-img{
+    background: #D9D9D9;
+    width: 35vh;
+    height: 35vh;
+    margin-bottom: 10vh;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+
+
+
+.conteudo-qs{
+    padding-bottom: 25px;
+    padding-top: 25px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 7vh;
+    background: #FFE49A;
+    width: 80%;
+    border-radius: 5px;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.conteudo-qs-t{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    
+
+}
+
+.conteudo-qs-s{
+    margin-top: 1vh;
+    display: flex;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-weight: normal;
+}
+
+.conteudo-flex{
+    display: flex;
+    justify-content: center;
+}
+
+.conteudo-g{
+    margin-top: 7vh;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.conteudo-pt{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4vh;
+}
+
+.conteudo-ps{
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+    margin-right: 50%;
+    margin-top: -3vh;
+}
+
+
+.linha{
+    padding: 32px;
+    border-top: 0.4px solid #E9E9E9;
+    width: 100%;
+}
+
+.conteudo-flex-qd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5vh;
+}
+
+
+.conteudo-flex-qd-c{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: #FAFAFA;
+    padding: 40px;
+    margin-right: 5vh;
+    border-radius: 25px;
+    height: 20%;
+    width: 40%;
+}
+
+.conteudo-flex-qd-texto-p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: lighter;
+
+}
+
+.conteudo-flex-qd-texto-s{
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+
+}
+
+.conteudo-qd-img{
+    width: 10vh;
+}
+
+.conteudo-qd-img-seta{
+    width: 70px;
+    display: flex;
+    align-self: flex-end
+}
+
+    

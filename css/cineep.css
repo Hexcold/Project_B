@@ -45,9 +45,14 @@ min-height: 450px;
 }
 
 .conteudo-qs{
+    padding-bottom: 25px;
+    padding-top: 25px;
+    margin-left: 10%;
+    margin-right: 10%;
     margin-top: 7vh;
     background: #FFE49A;
-    width: 100%;
+    width: 80%;
+    border-radius: 5px;
     font-family: 'Montserrat Alternates', sans-serif;
 }
 
