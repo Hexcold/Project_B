@@ -71,7 +71,7 @@
 }
 
 .conteudo-principal-escrito-botao{
-    margin-top: 1vh;
+    margin-top: 20px;
     font-family: 'Poppins', sans-serif;
     width: 180px;
     padding: 12px 0px;
@@ -164,7 +164,6 @@
 .conteudo-ps{
     font-family: 'Poppins', sans-serif;
     font-weight: lighter;
-    margin-right: 50%;
     margin-top: -3vh;
 }
 
@@ -216,6 +215,31 @@
     width: 70px;
     display: flex;
     align-self: flex-end
+}
+
+@media (max-width: 999px){
+    .conteudo-flex-qd{
+        display: block;
+    }
+    .conteudo-flex-qd-c{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .conteudo-principal{
+        display: block;
+        height: 600px;
+    }
+    .conteudo-principal-imagem{
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 750px){
+    .conteudo-principal{
+        display: block;
+        height: 750px;
+    }
+
 }
 
     
