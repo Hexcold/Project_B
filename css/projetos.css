@@ -98,6 +98,37 @@ body{
   width: 35vw;
 }
 
+.conteudo-principal-imagem-900{
+    display: none;
+}
+
+.conteudo-principal-900{
+    display: none;
+}
+
+@media (max-width: 999px){
+    .conteudo-principal-900{
+        display: block;
+    }
+    .conteudo-principal-imagem-900{
+        display: block;
+        width: 40%;
+        margin-right: 30%;
+        margin-left: 30%;
+        padding-top: 40px;
+    }
+    .conteudo-principal-imagem{
+        display: none;
+    }
+    .conteudo-principal{
+        display: block;
+    }
+    .conteudo-principal-escrito{
+        padding-bottom: 40px;
+    }
+
+}
+
 
 
 
@@ -148,11 +179,11 @@ body{
 .conteudo-pj-s{
     font-family: 'Poppins', sans-serif;
     font-weight: lighter;
-    margin-right: 50%;
+    margin-bottom: -10vh;
 }
 
 .conteudo-projetos{
-    margin-top: 30px;
+    margin-top: 20vh;
     font-family: 'Poppins', sans-serif; 
     display: flex;
     align-items: center;
@@ -220,7 +251,8 @@ body{
 }
 
 .conteudo-projetos-d{
-    margin-top: 30px;
+
+    margin-top: 200px;
     font-family: 'Poppins', sans-serif; 
     display: flex;
     align-items: center;
@@ -293,32 +325,49 @@ body{
     margin-left: 5vh;
 }
 
+.conteudo-projetos-imagem-d-900{
+    display: none;
+}
 
+.conteudo-projetos-escrito-d-900{
+    display: none;
+}
 
+.conteudo-projetos-d-900{
+        display: none;
+}
 
-@media (max-width: 999px) {
-    .conteudo-projetos-imagem{
-        width: 20vh;
-        height: 20vh;
+@media (max-width: 999px){
+    .conteudo-projetos-d{
+        display: block;
+        margin-top: 70px;
     }
     .conteudo-projetos-imagem-d{
-        width: 20vh;
-        height: 20vh;
+        display: none;
+    }
+    .conteudo-projetos-imagem-d-900{
+        display: block;
+        width: 60%;
+        margin-left: 20%;
+        margin-right: 20%;
+
+    }
+    .conteudo-projetos-escrito-d-900{
+        display: block;
+    }
+    .conteudo-projetos-escrito-titulo-vermelho{
+        margin-top: 200px;
     }
     .conteudo-projetos{
-        margin-top: 200px;
-    }
-    .conteudo-projetos-d{
-        margin-top: 200px;
+        display: none;
+    }   
+    .conteudo-projetos-d-900{
+        display: block;
+        margin-top: 500px;
     }
     .conteudo-pj-s{
-        margin-right: 0%;
+        margin-bottom: 150px;
     }
 
 
 }
-
-
-
-
-
