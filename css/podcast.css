@@ -250,6 +250,34 @@ body{
     margin-right: 10%;
 }
 
+.conteudo-apresentador-escrito-900{
+    display: none;
+}
+
+.conteudo-apresentador-imagem-900{
+    display: none;
+}
+
+@media (max-width: 999px){
+    .conteudo-apresentador-escrito-900{
+        display: block;
+    }
+    .conteudo-apresentador-imagem-900{
+        display: block;
+        width: 40%;
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+    .conteudo-apresentador{
+        display: block;
+    }
+    .conteudo-apresentador-imagem{
+        display: none;
+    }
+    .conteudo-apresentador-flex{
+        margin-bottom: 200px;
+    }
+
 .conteudo-apresentador-flex{
     display: flex;
 
@@ -266,14 +294,14 @@ body{
     cursor: pointer;
 }
 
+}
+
 .conteudo-ft{
-
-
 
     margin-left: 10%;
     margin-right: 10%;
 
-    margin-top: 50px;
+    margin-top: 12vh;
     font-family: 'Poppins', sans-serif;
     width: 80%;
     padding: 12px 0px;
@@ -288,10 +316,6 @@ body{
 
     font-size: 3vh;
     font-weight: bold;
-    margin-bottom: 100px;
     font-weight: lighter;
 
 }
-
-
-
