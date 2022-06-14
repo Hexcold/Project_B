@@ -8,6 +8,7 @@
 
 
 
+
 * {
     margin: 0;
     padding: 0;
@@ -309,11 +310,26 @@ font-family: 'Montserrat', sans-serif;
   color: #606060;
 }
 
+.conteudo-flex-sm{
+  display: flex;
+  justify-content: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 40px;
+}
 
 .conteudo-img-flex{
   display: flex;
   justify-content: center;
-  
+  flex-direction: column;
+  margin: 20px;
+  margin-right: 4vh;
+}
+
+.conteudo-texto-flex{
+  font-size: 4.5vh;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter; 
 }
 
 .linha1{
@@ -323,8 +339,13 @@ font-family: 'Montserrat', sans-serif;
 }
 
 .conteudo-img-flex-sm{
-  margin: 20px;
-  width: 30%;
+  width: 100%;
+}
+
+@media (max-width: 900px){
+  .conteudo-flex-sm{
+    display: block;
+  }
 }
 
 
