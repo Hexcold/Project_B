@@ -277,6 +277,10 @@ body{
     .conteudo-apresentador-flex{
         margin-bottom: 200px;
     }
+    .conteudo-ft-flex{
+        margin-top: 250px;
+    }
+}
 
 .conteudo-apresentador-flex{
     display: flex;
@@ -294,14 +298,13 @@ body{
     cursor: pointer;
 }
 
-}
 
 .conteudo-ft{
 
     margin-left: 10%;
     margin-right: 10%;
 
-    margin-top: 12vh;
+    margin-top: 20px;
     font-family: 'Poppins', sans-serif;
     width: 80%;
     padding: 12px 0px;
