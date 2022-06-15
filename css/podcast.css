@@ -88,7 +88,6 @@ body{
 }
 
 .conteudo-ep-f{
-    margin-right: 50%;
     font-family: 'Poppins', sans-serif;
     font-weight: lighter;
     font-size: 2vh;
@@ -130,6 +129,7 @@ body{
     font-family: 'Poppins', sans-serif;
     font-weight: lighter;
     margin-bottom: 4%;
+    font-size: 19px;
     
     
 
@@ -194,6 +194,7 @@ body{
     background: #000;
     cursor: pointer;
     box-shadow: 0px 10px 40px -20px #000;
+    font-size: 18px;
 
 
 }
@@ -280,6 +281,11 @@ body{
     .conteudo-ft-flex{
         margin-top: 250px;
     }
+}
+
+.conteudo-btn-saiba-mais{
+    margin-top: 40px;
+    margin-bottom: 50px;
 }
 
 .conteudo-apresentador-flex{
