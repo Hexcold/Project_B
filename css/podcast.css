@@ -44,6 +44,11 @@ body{
 
 }
 
+.conteudo-principal-escrito{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 
 .conteudo-principal-escrito-titulo{
     font-weight: 400;

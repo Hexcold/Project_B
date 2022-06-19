@@ -47,6 +47,7 @@ body{
     background: #FFC017;
     background-size: cover;
     height: 10vh;
+    width: 100%;
 
     min-height: 100px;
 
@@ -161,9 +162,9 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: #FFC017;
+    background: #FFC017;
 
-    width: 100vw;
+    width: 100%;
     height: 50vh;
     display: flex;
     justify-content: center;
@@ -350,10 +351,11 @@ font-family: 'Montserrat', sans-serif;
 
 .linha-valores{
   margin-top: 8px;
-  margin-bottom: -40px;
-  padding: 32px;
+  margin-bottom: -10px;
+  padding-bottom: 32px;
   border-top: 3px solid #D9D9D9;
   width: 100%;
+  
 }
 
 .conteudo-valores-quadrado-s-secundario{
@@ -374,13 +376,101 @@ font-family: 'Montserrat', sans-serif;
   }
 }
 
+.conteudo-logo-secundario{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  padding-bottom: 40px;
+  padding-right: 25px;
+  padding-left: 25px;
+  background: #FFC017;
+  width: 80%;
+  height: 350px;
+  margin-left: 10%;
+  margin-right: 10% ;
+  margin-top: 180px;
+}
+
+.conteudo-logo-secundario-texto-t{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4.8vh  ;
+  font-weight: normal;
+}
+
+.conteudo-logo-secundario-texto-s{
+  margin-top: 25px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+}
+
+.conteudo-logo-secundario-img{
+  width: 70vh;
+  height: 50vh;
+}
+
+.conteudo-logo-secundario-img-superior{
+  display: none;
+}
+
+@media (max-width: 1200px){
+  .conteudo-logo-secundario-img{
+    display: none;
+  }
+  .conteudo-logo-secundario-img-superior{
+    display: block;
+    margin-bottom: 50px;
+    width: 70vh;
+    justify-items: center;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: -80px;
+
+  } 
+  .conteudo-logo-secundario{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    height: 600px;
+  }
+}
+
+@media (max-width: 1000px){
+  .conteudo-logo-secundario{
+    height: 700px;
+  }
+  .conteudo-logo-secundario-img-superior{
+    margin-top: -80px;
+  }
+}
+
+@media (max-width: 670px){
+  .conteudo-logo-secundario{
+    height: 780px;
+  }
+  .conteudo-logo-secundario-img-superior{
+    width: 65vh;
+    margin-top: -80px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 620px){
+  .conteudo-logo-secundario-img-superior{
+    width: 50vh;
+    margin-top: -80px;
+  }
+}
+
 
 
 
 
 .conteudo-eventos{
   margin-right: 10% ;
-  margin-left: 10%;
+  margin-left: 10%; 
   margin-top: 7vh;
   font-family: 'Montserrat', sans-serif;
 }
