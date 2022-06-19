@@ -76,6 +76,7 @@
     overflow-x: hidden;
   }
   .nav-list {
+    margin-top: 30px;
     position: absolute;
     top: 8vh;
     right: 0;

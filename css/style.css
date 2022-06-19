@@ -101,6 +101,7 @@ body{
       overflow-x: hidden;
     }
     .nav-list {
+      margin-top: 30px;
       position: absolute;
       top: 8vh;
       right: 0;
@@ -378,8 +379,8 @@ font-family: 'Montserrat', sans-serif;
 
 
 .conteudo-eventos{
-  margin-right: 20% ;
-  margin-left: 20%;
+  margin-right: 10% ;
+  margin-left: 10%;
   margin-top: 7vh;
   font-family: 'Montserrat', sans-serif;
 }
@@ -388,11 +389,14 @@ font-family: 'Montserrat', sans-serif;
   color: #606060;
 }
 
-.conteudo-flex-sm{
-  display: flex;
-  justify-content: center;
+.conteudo-flex{
   margin-left: 10%;
   margin-right: 10%;
+}
+
+.conteudo-flex-sm{
+  display: flex;
+  justify-content: space-between;
   margin-bottom: 40px;
 }
 
