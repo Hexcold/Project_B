@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@1,500&family=Reem+Kufi:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@700&family=Reem+Kufi:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@1,600&display=swap');
 
 
 * {
@@ -50,16 +51,18 @@ body{
     font-family: 'Montserrat Alternates', sans-serif;
     font-weight: 400;
     font-size: 76px;
+    font-weight: bold;
 
 
 }
 
+
 .conteudo-principal-escrito-subtitulo{
-    margin-top: -5vh;
+    margin-top: -2vh;
     font-weight: 400;
     font-size: 76px;
-    font-family: 'Reem Kufi', sans-serif;
-
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: bold;
 
 }
 
