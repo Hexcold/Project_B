@@ -53,7 +53,8 @@ body{
 .conteudo-principal-escrito-titulo{
     font-weight: 400;
     font-size: 7vh;
-    font-weight: bold;   
+    font-weight: bold;
+    text-align: center;   
 
 }
 

@@ -170,16 +170,18 @@ font-size: 100%;
     justify-content: center;
     font-weight: bold;
     
+    
 
 }
 
 .conteudo-qs-s{
-    margin-top: 1vh;
+    margin-top: 20px;
     display: flex;
     justify-content: center;
     margin-left: 10%;
     margin-right: 10%;
     font-weight: normal;
+    text-align: center;
 }
 
 .conteudo-flex{
