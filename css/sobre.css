@@ -99,7 +99,6 @@ body{
 
 
 
-
 .conteudo-principal-imagem > h1 {
   font-size: 3vw;
 
@@ -145,8 +144,8 @@ body{
     justify-items: center;
     align-items: center;
     flex-direction: column;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 20px;
+    margin-right: 20px;
 
 }
 }
